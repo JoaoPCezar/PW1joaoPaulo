@@ -12,3 +12,8 @@ body {
     font-size: 20px;
 color: white;
   }
+
+  img{
+    width: 80%;
+    height: auto;
+  }
