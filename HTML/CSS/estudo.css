@@ -11,12 +11,13 @@ body {
   
   p {
       text-align: left;
-      color: white;
+      color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
   }
 
   img {
-      width: 80%;
+      width: 60%;
       height: auto;
   }
+  
