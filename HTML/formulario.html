@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="css/formulario.css">
-    </head>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/formulario.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
 <body>
-    <div class="esqcima" class>
-        
     
-<h1>Entrar em Contato</h1><br><br>
+<form name="form"action="">
+<h2>Get in touch</h2>
+ <p class="nome">
+     <input type="text" value="Name" name="nome"></p>
 
-<form action="/action_page.php">
- 
-  <input type="text" id="nome" value="name"><br><br>
-  
-  <input type="text" id="email" value="email"><br><br>
-  
-  <input type=¨text¨ id=¨subject¨ value="subject"><br><br>
-  
-  <input type=¨text¨ id=¨mensagem¨ value="mensagem"><br><br><br>
-  
-  <input type="submit" value="Send email">
- 
-</form> 
+ <p class="email">
+     <input type="email" value="Email" name="email">
+ </p>
 
-</div>
+ <P class="assunto">
+     <input type="assunto" value="Assunto" name="assunto">
+ </P>
+
+ <p class="mensagem">
+     <textarea  name="mensagem" id="" cols="22" rows="6"></textarea>
+ </p>
+
+ <p class="enviar">
+     <input type="submit" name="enviar"value="enviar">
+ </p>
+
+</form>
+
+
+
 </body>
 </html>
