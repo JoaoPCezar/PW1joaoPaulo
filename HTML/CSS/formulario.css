@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: white;
+    display: block;
 }
 
 form {
@@ -43,7 +44,3 @@ textarea {
     width: 150px;
 }
 
-img {
-    left: 0;
-    top: 0;
-}
