@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    display: block;
+}
+
+form {
+    font-size: 16px;
+    background: rgb(248, 245, 245);
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 370px;
+    margin-top: 230px;
+}
+
+h2 {
+    color: #333;
+    text-align: right;
+    margin-right: 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid rgb(227, 230, 226);
+    background: rgb(227, 230, 226);
+
+}
+
+textarea {
+    width: 250px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid rgb(227, 230, 226);
+    background: rgb(227, 230, 226);
+}
+
+.enviar input {
+    background-color: rgb(162, 218, 152);
+    height: 40px;
+    width: 150px;
+}
+
