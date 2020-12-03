@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Desafio Jquery</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            h1, h2 {
+                font-size: 40px;
+            }
+            form {
+                font-size: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Grande Desafio</h1>
+        <h2>Abaixo veremos um exemplo de Jquery!</h2>
+        <div>
+            <button type="button" name="botao" id="botaoMagico">Olá, está curioso?</button>
+        </div>
+        <div id="Sobre"></div><br>
+        <form>
+            <div class="">
+                <input
+                    type="text"n ame="email" id="email"value="" placeholder="Digite seu email">
+            </div>
+            <div>
+                <button type="submit" name="botao">Enviar email</button>
+            </div>
+        </form><br>
+
+        <a href="javascript.html">Aonde isso vai dar?</a>
+
+        <script type="text/javascript">
+            $('#botaoMagico').click(() => {
+                $('#Sobre').html(
+                    'Jquery é basicamente uma biblioteca de JavaScript, é como se fosse um <br> mod' +
+                    'elo ou uma estrutura criado para facilitar a vida dos desenvolvedores.'
+                )
+            })
+
+            $('form').submit(function () {
+                if ($('#email').val() === '') {
+                    alert('campo email vazio');
+                    return false;
+                }
+            })
+        </script>
+    </body>
+</body>
+</html>

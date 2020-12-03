@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio JavaScript</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+    div, button {
+        font-size: 30px;
+    }
+</style>
+  
+</head>
+<body>
+    
+        <div>
+            <button type="submit" name="Botao" id="botaomagico">Clique e Veja!</button>
+        </div>
+        <div id="sobre"></div><br>
+ 
+    <a href="jquery.html">exemplo anterior</a>
+
+    <script type="text/JavaScript">
+        $('#botaomagico').click(() => {
+            $("#sobre").html('Olá, Mundo! prof eu nao sei quase nada de javascript e peguei mais o exemplo da aula mesmo de Jquery. Mas eu dei uma pesquisada e vou colocar com as minhas palavras oque é JS. JavaScrip é uma linguagem de programação muito utilizada em paginas de web, ele basicamente é a parte interativa do site. é como se fosse magica heeh. agota partiu caprichar no site <3.')
+        })
+    </script>
+</body>
+</html>
