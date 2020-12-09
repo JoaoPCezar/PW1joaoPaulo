@@ -61,7 +61,7 @@ h1, h2 {
 
   p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 17px;
+    font-size: 30px;
     padding-top: 30px;
     padding-left: 30px;
     color: white;
@@ -88,5 +88,28 @@ div.absolute1 {
   width: 500px;
   height: 700px;
   background-color: rgba(37, 22, 168, 0.342);
+}
+
+.netuno {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 150px;
+}
+
+.netuno2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  left: 150px;
+}
+
+iframe {
+  padding: 0;
+  margin-left: 50px;
+  width:400px ;
+  height: 300px;
 }
 

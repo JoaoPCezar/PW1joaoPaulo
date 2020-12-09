@@ -4,13 +4,6 @@ body {
     background-size: 100%;
     margin: 0;
     padding: 0;
-    display: block;
-}
-
-.h1 {
-    margin-top: 40px;
-    text-align: center;
-    color: white;
 }
 
 h2 {
@@ -37,8 +30,8 @@ input {
 }
 
 .mostrar {
-    width: 200px;
-    border-radius: 15px;
+    width: 150px;
+    height: 40px;
     border: 1px solid black;
     background: white;
 }
@@ -47,3 +40,19 @@ a {
     font-size: 30px;
     color: white;
 }
+
+.netuno {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    right: 450px;
+  }
+  
+  .netuno2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+  }
