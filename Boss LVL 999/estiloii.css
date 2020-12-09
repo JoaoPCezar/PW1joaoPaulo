@@ -8,18 +8,24 @@ body {
 }
 
 .h1 {
+    margin-top: 40px;
     text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size:40px;
     color: white;
 }
 
 form {
     font: 16px;
-    background: rgb(248, 245, 245);
-    width: 350px;
+    width: 400px;
     margin: 0 auto;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 100px;
     margin-top: 230px;
     border-radius: 10px;
+    background-color: rgba(37, 22, 168, 0.342);
 }
 
 input {
@@ -28,4 +34,16 @@ input {
     border-radius: 15px;
     border: 1px solid black;
     background: white;
+}
+
+.mostrar {
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: white;
+}
+
+a {
+    font-size: 30px;
+    color: white;
 }

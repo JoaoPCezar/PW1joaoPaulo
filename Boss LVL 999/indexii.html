@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Document</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="estiloii.css">
 </head>
 <body>
@@ -12,23 +12,35 @@
         <h1>faça seu cadastro</h1>
         </div>
          <div class="form">
-         <form name="form" action="">
+         <form>
             <h2>Cadastro</h2>
             <p class="nome">
-                <input type="text" value="Name" name="nome"></p>
+                <input type="text" placeholder="nome" name="nome"></p>
 
             <p class="email">
-                <input type="email" value="Email" name="email">
+                <input type="email" placeholder="email" name="email">
             </p>
 
-            <p class="assunto">
-                <input type="senha" value="senha" name="assunto">
+            <p class="senha">
+                <input type="password" placeholder="senha" id="senha"></p>
+                <p class="mostrar">
+                    <input type="checkbox" onclick="mostrarOcultar()">mostrar senha</p>
             </p>
             <p class="enviar">
-                <input type="submit" name="enviar" value="enviar">
+                <a href="index.html"> enviar</a>
             </p>
 
         </form>
+        <script>
+            function mostrarOcultar(){
+                var senha=document.getElementById("senha")
+                if(senha.type=="password"){
+                    senha.type="text";
+                }else{
+                senha.type="password"
+                }
+                }
+        </script>
     </div>
 </body>
 </html>
