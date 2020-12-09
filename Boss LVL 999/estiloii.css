@@ -6,9 +6,33 @@ body {
     padding: 0;
 }
 
+h1 {
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+}
+
 h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:40px;
     color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
+}
+
+.topo {
+    height: 150px;
+}
+
+.bvindo {
+    margin-top: 20px;
+    margin-left: 510px ;
+    width: 800px;
+    height: 40px;
+    background-color:  rgba(37, 22, 168, 0.342);
+    text-align: center;
 }
 
 form {
@@ -16,24 +40,25 @@ form {
     width: 400px;
     margin: 0 auto;
     padding: 10px 10px 10px 100px;
-    margin-top: 230px;
+    margin-top: 100px;
     border-radius: 10px;
     background-color: rgba(37, 22, 168, 0.342);
 }
 
 input {
     width: 250px;
+    padding: 10px 10px 10px 10px;
     padding: 5px;
     border-radius: 15px;
     border: 1px solid black;
     background: white;
 }
 
-.mostrar {
-    width: 150px;
-    height: 40px;
-    border: 1px solid black;
-    background: white;
+button {
+    width: 80px;
+    height: 20px;
+    border-radius: 15px;
+
 }
 
 a {
@@ -45,7 +70,7 @@ a {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 300px;
+    top: 400px;
     right: 450px;
   }
   
@@ -53,6 +78,6 @@ a {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 300px;
+    top: 400px;
     left: 300px;
   }
