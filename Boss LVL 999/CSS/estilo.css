@@ -12,7 +12,7 @@ img {
 }
 
 body {
-  background-image: url(star.jpg);
+  background-image: url(../IMG/star.jpg);
   background-size: 100%;
 }
 
@@ -22,15 +22,15 @@ body {
 
 #menu ul {
   background-color: rgba(37, 22, 168, 0.342);
- width: 1040px;
- margin-left: 300px;
+ width: 1150px;
+ margin-left: 340px;
 }
 
 #menu ul li {
   display: inline-table;
   padding: 0px 30px;
   cursor: pointer;
-  margin-left: 150px;
+  margin-left: 170px;
 }
 
 #menu ul li a{
@@ -75,7 +75,7 @@ div.relative {
 
 div.absolute {
   position: absolute;
-  left: 300px;
+  left: 400px;
   width: 500px;
   height: 700px;
   background-color:rgba(37, 22, 168, 0.342);
@@ -83,7 +83,7 @@ div.absolute {
 
 div.absolute1 {
   position: absolute;
-  right: 300px;
+  right: 400px;
   width: 500px;
   height: 700px;
   background-color: rgba(37, 22, 168, 0.342);
@@ -94,7 +94,7 @@ div.absolute1 {
   height: 50px;
   position: absolute;
   top: 15px;
-  right: 150px;
+  right: 190px;
 }
 
 .netuno2 {
